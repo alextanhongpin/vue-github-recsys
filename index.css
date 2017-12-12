@@ -1,0 +1,46 @@
+body {
+	font-family: Avenir, Helvetica, sans-serif;
+}
+.user-photo {
+	height: 160px;
+	width: 160px;
+	border-radius: 50%;
+	border: 1px solid #EEEEEE;
+	margin: auto;
+	box-shadow: 0 0 100px rgba(0, 0, 0, .1);
+}
+
+.search {
+	height: 30px;
+	width: 240px;
+	font-size: 14px;
+	display: block;
+	-webkit-appearance: none;
+	border: 1px solid #DDDDDD;
+	border-radius: 3px;
+	padding: 0 5px;
+	margin: 40px auto;
+	font-family: Avenir, Helvetica, sans-serif;
+	text-align: center;
+	font-weight: bold;
+}
+.decorator {
+	height: 20px;
+	width: 20px;
+	-webkit-filter: blur(15px);
+	filter: blur(15px);
+}
+
+.decorator--red {
+	background: red;
+}
+.decorator--green {
+	height: 40px;
+	width: 40px;
+	background: green;
+}
+.decorator--blue {
+	height: 30px;
+	width: 30px;
+	background: blue;
+}
